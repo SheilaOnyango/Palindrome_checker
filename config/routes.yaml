@@ -1,5 +1,4 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+palindrome_checker:
+  path: /palindrome
+  controller: App\Controller\PalindromeController::checkpalindrome
+  methods: [GET]
